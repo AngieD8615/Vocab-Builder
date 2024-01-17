@@ -1,6 +1,5 @@
 import axios from 'axios';
 
-
 const datamuseURL = "https://api.datamuse.com"
 
 const getWordsByTopic = async (topic = "ocean") => {
