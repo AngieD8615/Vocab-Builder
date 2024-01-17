@@ -1,0 +1,29 @@
+.word-def-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem;
+  background-color: #f5f5dc;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 2px 4px 8px #cfb095;
+}
+
+.vocab-word {
+  display: flex;
+  width: 25%;
+}
+
+.vocab-defs {
+  display: flex;
+  width: 75%;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.def {
+  padding: 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start
+}
